@@ -8,6 +8,27 @@ body {
   font: 18px/1.5 sans-serif;
 }
 
+li{
+    list-style: none;
+    display: inline; /* může být i inlilne-block */
+}
+
+ul{
+    padding: 0;
+    background-color: lightblue;
+}
+
+a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+    color: lightblue;
+}
+
 /*
 BARVY
 czechitas  #b92e81
