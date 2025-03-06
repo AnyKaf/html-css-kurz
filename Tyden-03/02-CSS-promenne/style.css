@@ -1,36 +1,58 @@
+:root{
+    --primaryColor: orange;
+    --backgroundColor: white;
+    --textColor: black;
+    --spacing: 30px;
+    --bodyFont: Georgia, serif;
+    --titleFont: sans-serif;
+}
+
+.dark{
+    --backgroundColor: black;
+    --textColor: white;
+}
+
+
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
-  font-family: sans-serif;
+  font-family: var(--bodyFont);
   padding: 30px;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
 }
 
 h1 {
   margin-top: 0;
-  color: black;
+  color: var(--primaryColor);
+  font-family: var(--titleFont);
+}
+
+h2{font-family: var(--titleFont);
 }
 
 .box {
-  padding: 1em;
-  border: 5px solid black;
+  padding: var(--spacing);
+  border: 5px solid var(--primaryColor);
 }
 
 .invert {
+    /* --primaryColor: green; */
   margin: 1em 0;
-  padding: 1em;
-  background-color: black;
-  color: white;
+  padding: var(--spacing);
+  background-color: var(--primaryColor);
+  color: var(--backgroundColor);
 }
 
 .button {
   display: inline-block;
   padding: 15px 30px;
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: var(--primaryColor);
+  color: var(--backgroundColor);
 }
 
 .link {
-  color: blue;
+  color: var(--primaryColor);
 }

@@ -10,7 +10,7 @@ html { box-sizing: border-box; }
 	border: 1px dashed grey;
 
 
-	background-image: linear-gradient(red, yellow, blue);
+	background-image: radial-gradient(pink, deeppink, violet);
 }
 
 /* ------------------------------------ */

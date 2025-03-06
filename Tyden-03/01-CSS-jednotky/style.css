@@ -17,26 +17,33 @@ h1 {
 .box1 {
   /* px - absolutni */
   background: dodgerblue;
+  width: 300px;
 }
 
 .box2 {
   /* % - relativni */
   background: tomato;
+  width: 50%;
+  height: 50%; /* nefunguje */
 }
 
 .box3 {
   /* vw, vh  - viewport units, relativni */
   background: mediumseagreen;
+  width: 50vw;
 }
 
 .box4 {
   /* rem */
   background: orange;
+  width: 10rem;
 }
 
 .box5 {
   /* em */
   background: mediumpurple;
+  width: 10em;
+  font-size: 20px;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
@@ -48,11 +55,13 @@ h1 {
 .kontejner1 {
   padding: 1em;
   border: 5px solid grey;
+  font-size: 30px;
 }
 
 .kontejner2 {
   padding: 1em;
   border: 5px solid silver;
+  font-size: 40px;
 }
 
 .velikost-rem {
