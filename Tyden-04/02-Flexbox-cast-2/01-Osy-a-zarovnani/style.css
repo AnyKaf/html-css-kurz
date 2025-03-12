@@ -22,13 +22,9 @@
 /* ---------------------------------------------------- */
 
 
-.kontejner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.treti {
-  font-size: 24px;
+.kontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }

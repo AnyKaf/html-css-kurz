@@ -20,3 +20,22 @@
 }
 
 /* ---------------------------------------------------- */
+
+
+.kontejner{
+    display: flex;
+}
+.prvni{
+    flex-basis: 150px;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    /* flex-basis: auto; */ 
+}
+.druhy{
+    width: 150px;
+    /* =flex-basis: 100px; */
+}
+.treti{
+    /* flex-grow: 2; */
+    flex-basis: 150px;
+}
